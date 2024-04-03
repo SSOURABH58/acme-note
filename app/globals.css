@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.animateOnViewScroll {
+  animation-timeline: scroll();
+}

@@ -3,7 +3,10 @@ import NextSliceButton from "./NextSliceButton";
 
 function Slice2() {
   return (
-    <div className="flex h-screen snap-start justify-center items-center relative bg-[#FFC18E]">
+    <div
+      id={"2"}
+      className="flex h-screen snap-start justify-center items-center relative bg-[#FFC18E]"
+    >
       <div className="flex flex-col gap-3">
         <h1
           className="text-primText font-bold text-5xl relative w-[max-content] font-mono  
@@ -17,7 +20,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-blac
           wish some one keep it all organized
         </p>
       </div>
-      <NextSliceButton />
+      <NextSliceButton id={"3"} />
     </div>
   );
 }

@@ -4,7 +4,10 @@ import Image from "next/image";
 
 function Slice3() {
   return (
-    <div className="flex h-screen snap-start justify-center items-center relative bg-[#B8B5FF]">
+    <div
+      id={"3"}
+      className="flex h-screen snap-start justify-center items-center relative bg-[#B8B5FF]"
+    >
       <div className="flex flex-col gap-3">
         <h1
           className="text-primText font-bold text-5xl relative w-[max-content] font-mono  

@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="overflow-y-scroll relative h-screen   flex flex-1 min-h-screen flex-col bg-primBg items-center gap-14">
+    <main className="relative h-screen   flex flex-1 min-h-screen flex-col bg-primBg items-center gap-14">
       <div className="h-9" />
       <Header className={"sticky w-full z-50 top-0"} />
       <Intro />

@@ -8,11 +8,14 @@ export default function Home() {
   return (
     <main className=" relative flex flex-1 min-h-screen flex-col   bg-primBg">
       <Header className={"absolute w-full z-50"} />
-      <div className="h-screen overflow-scroll snap-y snap-proximity transition-all">
-        <Slice1 />
-        <Slice2 />
-        <Slice3 />
-      </div>
+      {/* <Intro/> */}
+      {/* <Preview/> */}
+      {/* <AIOrigination /> */}
+      {/* <AllNotes/> */}
+      {/* <Features/> */}
+      {/* <NotesGrid/> */}
+      {/* <SigUpButton/> */}
+      {/* <Footer/> */}
     </main>
   );
 }

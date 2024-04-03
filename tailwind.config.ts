@@ -9,46 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primBg: "#FFF3C7",
-        primText: "#000000",
-      },
-
-      animation: {
-        typewriter: "typewriter 2s steps(11) forwards",
-        caret:
-          "blink 1s steps(11) infinite 2s,typewriter 2s steps(11) forwards",
-      },
-      keyframes: {
-        typewriter: {
-          to: {
-            left: "100%",
-          },
-        },
-        blink: {
-          "0%": {
-            opacity: "0",
-          },
-          "0.1%": {
-            opacity: "1",
-          },
-          "50%": {
-            opacity: "1",
-          },
-          "50.1%": {
-            opacity: "0",
-          },
-          "100%": {
-            opacity: "0",
-          },
-        },
-        fadeIn: {
-          "0%": {
-            opacity: "0",
-          },
-          "100%": {
-            opacity: "1",
-          },
-        },
+        backGround: "#130338",
+        accentSky: "#6DC7FF",
+        accentPink: "#E6ABFF",
+        accentBlue: "#1A6DFF",
+        accentMagenta: "#C822FF",
+        textColorLite: "#F0F0F0",
+        textColorGray: "#B8B8B8",
       },
     },
   },

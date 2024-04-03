@@ -3,10 +3,10 @@ import React from "react";
 
 function AIOrigination() {
   return (
-    <div className="w-7/12 flex flex-col gap-4">
+    <div className="w-7/12 flex flex-col gap-8">
       <div className="flex w-full relative justify-center items-center ">
-        <Image src="/icons/appLogo.svg" width={300} height={300} alt="" />
-        <Image src="/icons/appLogo.svg" width={300} height={300} alt="" />
+        <Image src="/images/cpu.png" width={300} height={300} alt="" />
+        <Image src="/images/notes.png" width={300} height={300} alt="" />
       </div>
       <p className="text-textColorLite/50  text-[16px] text-center">
         Acme Note is a note-taking app that helps you to take notes, organize

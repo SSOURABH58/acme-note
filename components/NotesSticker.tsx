@@ -23,7 +23,6 @@ function NotesSticker({ color, title, description }: NotesStickerProps) {
         />
       </div>
       <textarea
-        type="text"
         title="todo"
         className="bg-transparent w-full  text-black mt-3"
         defaultValue={description}

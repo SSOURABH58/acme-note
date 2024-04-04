@@ -9,7 +9,7 @@ function SigUpButton() {
       className="w-7/12 flex flex-col gap-4  justify-center items-center mb-52"
     >
       <h1 className="text-textColorLite font-black text-[42px] mb-12">
-        Let's Start this Journey
+        {`Let's Start this Journey`}
       </h1>
       <LoginBtn title="SignUp with Google" />
       <LoginBtn title="SignUp with Apple" />

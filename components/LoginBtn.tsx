@@ -7,7 +7,7 @@ interface LoginBtnProps {
 }
 function LoginBtn({ title = "Sign Up", logo = "" }: LoginBtnProps) {
   return (
-    <div className="flex gap-2 bg-white rounded-3xl w-[300px] items-center justify-center py-2">
+    <div className="flex gap-2 bg-white rounded-3xl w-[300px] items-center justify-center py-2 hover:scale-105 active:opacity-75 cursor-pointer transition-all">
       {!!logo && <Image src={logo} alt="logo" width={30} height={30} />}
       <p className="text-black font-bold text-[24px]">{title}</p>
     </div>

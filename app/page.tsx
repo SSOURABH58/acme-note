@@ -1,6 +1,7 @@
 import AIOrigination from "@/components/AIOrigination";
 import AllNotes from "@/components/AllNotes";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
 import NotesGrid from "@/components/NotesGrid";
@@ -20,7 +21,7 @@ export default function Home() {
       <Features />
       {/* <NotesGrid /> */}
       <SigUpButton />
-      {/* <Footer/> */}
+      <Footer />
     </main>
   );
 }

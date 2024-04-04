@@ -5,7 +5,7 @@ function Intro() {
   return (
     <div className="flex flex-col items-center max-w-2xl py-10 gap-4">
       <div className="flex relative rounded-[32px] justify-center items-center">
-        <div className="z-50 shadow-2xl size-[380px] shadow-accentMagenta/50 rounded-[100px] absolute " />
+        <div className="z-50 shadow-2xl size-[373px] animate-pulse shadow-accentMagenta rounded-[100px] absolute " />
         <Image
           src="/icons/AcmeNoteLogo.png"
           height={400}

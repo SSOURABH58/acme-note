@@ -18,19 +18,6 @@ const config: Config = {
         textColorGray: "#B8B8B8",
       },
     },
-    keyframes: {
-      borderPuls: {
-        "0%": {
-          borderColor: "#C822FF",
-        },
-        "50%": {
-          borderColor: "#C822FF1A",
-        },
-        "100%": {
-          borderColor: "#C822FF",
-        },
-      },
-    },
   },
   plugins: [],
 };
